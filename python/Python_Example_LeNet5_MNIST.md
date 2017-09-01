@@ -1,4 +1,4 @@
-# Running BigDL (Python) on your Mac
+# Setting BigDL and Spark in your local environment
 
 This tutorial will teach you how to set up BigDL on your Mac and run the MNIST digit recognition BigDL Python application.
 
