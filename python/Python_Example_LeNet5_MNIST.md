@@ -4,12 +4,18 @@
 
 ### Prerequisites:
 -Mac/Linux OS
+
 -Java latest version (if you don’t have it run: **conda install java**)
+
 [java downloads page](https://www.java.com/en/download/mac_download.jsp)
+
 -Jupyter Notebook (your pyspark driver)
+
 [jupyter downloads page](http://jupyter.readthedocs.io/en/latest/install.html)
+
 -Python 2.7
 [python 2.7 download page](https://www.python.org/download/releases/2.7/)
+
 -scikit-learn, spicy, numpy, pandas, matplotlib libraries (**pip install** these in your environment)
 
 ## **STEP 1**: Set up your BigDL folder.
