@@ -22,13 +22,13 @@
 ![alt text](https://github.com/dnielsen/vegnonveg/blob/master/python/spark_pic.png)
 
 
-### 3: Download [start_notebook.sh](start_notebook.sh)
+### 3: Download [start_notebook.sh](start_notebook.sh).
 **Note**: Remember to change **<path to folder you created>** after the **SPARK_HOME** and **BigDL_HOME** environment variables to the absolute path to your bigdl folder you just created.  This is the script that you will run to start a spark session and use BigDL. It sets the correct parameters and environment for your spark session to run BigDL applications.
 
 ### 4: Download [cnn.ipynb](cnn.ipynb).
 **Note**:  There are more example notebooks in BigDL’s tutorial repository.  Feel free to clone and download these example notebooks here: [tutorials](https://github.com/intel-analytics/BigDL-Tutorials/tree/branch-0.2/notebooks/neural_networks)
 
-### 5: Download [utils.py](utils.py) here.  
+### 5: Download [utils.py](utils.py).  
 
 ### 6 Verify that all items listed above are in your bigdl folder.  You are ready to run your application now.
 
