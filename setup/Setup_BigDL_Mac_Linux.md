@@ -24,7 +24,7 @@ This tutorial will teach you how to set up BigDL on your Mac and run the MNIST d
 
 
 
-### 1: Download the built BigDL Package under Release 0.2.0, for Spark 2.1.1 here: [bigdl](https://bigdl-project.github.io/master/#release-download/). There is a version for Mac and Linux.  This has all BigDL dependencies and python files too.
+### 1: Download the built BigDL Package under Release 0.2.0, for Spark 2.1.1 here: [bigdl](https://bigdl-project.github.io/master/#release-download/). There is a version for **Mac** and **Linux**.  This has all BigDL dependencies and python files too.
 ![alt text](https://github.com/dnielsen/vegnonveg/blob/master/setup/images/bigdl_pic.png)
 
 
