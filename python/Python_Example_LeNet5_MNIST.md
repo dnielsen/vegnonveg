@@ -13,13 +13,13 @@
 
 
 ### 1: Download the built BigDL Package under Release 0.2.0, for Spark 2.1.1 here: [bigdl](https://bigdl-project.github.io/master/#release-download/). There is a version for Mac and Linux.  This has all BigDL dependencies and python files too.
-![Alt text](/bigdl_pic?raw=true)
+![alt text](https://github.com/dnielsen/vegnonveg/blob/master/python/bigdl_pic.png)
 
 
 
 
 ### 2: Download Spark version 2.1.1 here: [spark](https://spark.apache.org/downloads.html). This unzips into a folder with all spark related contents.
-![Alt text](/spark_pic?raw=true)
+![alt text](https://github.com/dnielsen/vegnonveg/blob/master/python/spark_pic.png)
 
 
 ### 3: Download [start_notebook.sh](start_notebook.sh)
@@ -35,7 +35,7 @@
 ## **STEP 2**: Run your BigDL application
 
 ### 1: On your terminal, make sure you are in the directory you created and run the command **./start_notebook.sh**. This starts Jupyter Notebook and creates your Spark Context (sc).
-![Alt text](/terminal_pic?raw=true)
+![alt text](https://github.com/dnielsen/vegnonveg/blob/master/python/terminal_pic.png)
 
 ### 2: Copy and Paste the URL into your browser to start Jupyter Notebook.
 **Note**: If you need to, change the access permission of start_notebook.sh script using this command:
