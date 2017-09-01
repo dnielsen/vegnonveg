@@ -41,8 +41,8 @@
 **Note**: If you need to, change the access permission of start_notebook.sh script using this command:
 **chmod +x <your path>/start_notebook.sh**
 
-### 3: Run cnn.ipynb file in Jupyter Notebooks **using a kernel that runs Python 2.7.**  It should match the output on the BigDL tutorials.
+### 3: Run cnn.ipynb file in Jupyter Notebook **using a kernel that runs Python 2.7.**.
 **Note**: If your default kernel in Jupyter Notebook is Python 3, you have to change it to Python 2.  You can create a virtual environment that uses Python 2.7 by following this [guide](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/).
 **Note**: You can only run one .ipynb at a time because you have only one spark session, remember to shutdown the rest.  Also make sure your kernel is running Python 2 (Python 3 is still being tested).  
 
-### Thats it!
+### Thats it! You just used BigDL's LeNet5 model to do image recognition!
