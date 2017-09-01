@@ -1,6 +1,6 @@
 # Running BigDL (Python) on your Mac
 
-## This tutorial will teach you how to set up BigDL on your Mac and run the MNIST digit recognition BigDL Python application.
+This tutorial will teach you how to set up BigDL on your Mac and run the MNIST digit recognition BigDL Python application.
 
 ### Prerequisites:
 -Mac/Linux OS
