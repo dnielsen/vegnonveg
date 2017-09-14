@@ -1,0 +1,11 @@
+
+-- finetune the model. The steps involved are defined below.
+     - pre-req : Define inception_v1 model in BigDL and load it with Caffe model's weights
+     - remove the last layer of the model)
+     - freeze all the layers
+     - add a new layer with 'num_class' we have in our data-set
+     - compile the model
+
+-- train the fine-tuned model on custome dataset
+
+-- evaluate the performance of the model
