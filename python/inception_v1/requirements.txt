@@ -1,0 +1,4 @@
+
+python 2.7
+BigDL 0.2.0
+OpenCV 2 
