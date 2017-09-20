@@ -16,11 +16,11 @@ TODO
 ### 1) Install Anaconda
 In your home directory, **/home/ubuntu**, install anaconda with this command:
 ```
-**curl -O https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh**
+curl -O https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
 ```
 Run the script:
 ```
-**bash Anaconda3-4.2.0-Linux-x86_64.sh**
+bash Anaconda3-4.2.0-Linux-x86_64.sh
 ```
 Follow the command prompt to finish the installation. When prompted:
 
@@ -31,58 +31,68 @@ Choose "yes" so you can use the conda command.
 
 Verify installation of anaconda by typing the command:
 ```
-**conda list**
+conda list
 ```
 You’ll receive output of all the packages you have available through the Anaconda installation.
 
 ### 2) Install Java on root:
-
-**conda install -c reeder java-jdk**
-
+```
+conda install -c reeder java-jdk
+```
 ### 3) Create a Python 2.7 virtual environment
 
 Use the command:
-
-**conda create -n yourenvname python=2.7 anaconda**
+```
+conda create -n yourenvname python=2.7 anaconda
+```
 Switch the the Python 2.7 environment.
 
 Run:
-
-**source activate yourenvname**
+```
+source activate yourenvname
+```
 
 ### 4) Install Java on your new environment
 
-**conda install -c reeder java-jdk**
+```
+conda install -c reeder java-jdk
+```
 
 ### 5) Install BigDL
 
 Create a folder called bigdl and cd:
 
-**mkdir bigdl**
-
-**cd bigdl**
+```
+mkdir bigdl
+cd bigdl
+```
 
 Download bigdl:
 
-**wget https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.1-scala-2.11.8-linux64/0.2.0/dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist.zip**
+```
+wget https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.1-scala-2.11.8-linux64/0.2.0/dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist.zip
+```
 
 Unzip the zip file by running these commands:
-
-**sudo apt-get install unzip**
-**mkdir dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist**
-**unzip dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist.zip -d ./dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist**
+```
+sudo apt-get install unzip
+mkdir dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist
+unzip dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist.zip dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist
+```
 
 Your **dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist** folder should have lib, conf and bin folders.
 
 ### 6) Install Spark
 
 Make sure you are in the **bigdl** directory.  Run:
-
-**wget https://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.7.tgz**
+```
+wget https://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.7.tgz
+```
 
 Unzip:
-
-**tar -xzf spark-2.1.1-bin-hadoop2.7.tgz**
+```
+tar -xzf spark-2.1.1-bin-hadoop2.7.tgz**
+```
 
 ### 7) Download the starter script
 
@@ -156,7 +166,10 @@ def get_mnist(sc, mnist_path):
 
 -start_notebook.sh
 
-### 11) Run the script to launch Jupyter Notebooks: **./start_notebook.sh**
+### 11) Run the script to launch Jupyter Notebooks:
+```
+./start_notebook.sh
+```
 
 This should launch the Jupyter Notebooks server on your AWS instance. Make sure your AWS instance is up and running.
 In your browser type in: **ec2-34-229-7-73.compute-1.amazonaws.com:8888/?token=<YOUR TOKEN>**
