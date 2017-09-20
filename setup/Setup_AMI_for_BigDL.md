@@ -5,21 +5,23 @@
 ## Launch an AWS EC2 Instance
 
 1) Create/sign on to your AWS account
-2)
+2) TODO
 
 ## SSH into AWS EC2 Instance
+
+TODO
 
 ## Install Dependencies
 
 ### 1) Install Anaconda
 In your home directory, **/home/ubuntu**, install anaconda with this command:
-
+```
 **curl -O https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh**
-
+```
 Run the script:
-
+```
 **bash Anaconda3-4.2.0-Linux-x86_64.sh**
-
+```
 Follow the command prompt to finish the installation. When prompted:
 
 Do you wish the installer to prepend the Anaconda3 install location
@@ -28,9 +30,9 @@ to PATH in your /home/sammy/.bashrc ? [yes|no]
 Choose "yes" so you can use the conda command.
 
 Verify installation of anaconda by typing the command:
-
+```
 **conda list**
-
+```
 You’ll receive output of all the packages you have available through the Anaconda installation.
 
 ### 2) Install Java on root:
