@@ -171,7 +171,9 @@ def get_mnist(sc, mnist_path):
 ./start_notebook.sh
 ```
 
-This should launch the Jupyter Notebooks server on your AWS instance. Make sure your AWS instance is up and running.
-In your browser type in: **ec2-34-229-7-73.compute-1.amazonaws.com:8888/?token=<YOUR TOKEN>**
+This should launch the Jupyter Notebooks server on your AWS instance. Make sure your AWS instance is up and running, and enter in the token provided on your command prompt into YOURTOKEN.
+In your browser type in:
+
+**ec2-34-229-7-73.compute-1.amazonaws.com:8888/?token=YOURTOKEN**
 
 Try running lenet.ipynb or inception.ipynb.
