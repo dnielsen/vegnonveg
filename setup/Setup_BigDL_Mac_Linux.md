@@ -5,7 +5,7 @@ This tutorial will teach you how to set up BigDL on your Mac and run the MNIST d
 ### Prerequisites:
 -Mac/Linux OS
 
--Java latest version (if you don’t have it run: **conda install java**) ([java downloads page](https://www.java.com/en/download/mac_download.jsp))
+-Java latest version (if you don’t have it run: **conda install -c reeder java-jdk**) ([java downloads page](https://www.java.com/en/download/mac_download.jsp))
 
 -Jupyter Notebook (your pyspark driver) ([jupyter downloads page](http://jupyter.readthedocs.io/en/latest/install.html))
 
