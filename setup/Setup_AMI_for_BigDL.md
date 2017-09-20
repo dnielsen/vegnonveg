@@ -124,7 +124,7 @@ Copy and paste the contents from [inception_v1.ipynb](https://github.com/dnielse
 
 ### 9) Create a utils.py file
 
-### Copy and paste the following code into a file called **utils.py**.
+#### Copy and paste the following code into a file called **utils.py**.
 
 ```python
 import numpy as np
