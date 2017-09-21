@@ -116,11 +116,9 @@ ${SPARK_HOME}/bin/pyspark \
   --conf spark.executor.extraClassPath=${BigDL_HOME}/lib/bigdl-SPARK_2.1-${VERSION}-jar-with-dependencies.jar
 ```
 
-### 8) Create the lenet and inception bigdl jupyter notebooks to test out.
+### 8) Create the lenet jupyter notebook to test out.
 
 Copy and paste the contents from [cnn.ipynb](cnn.ipynb) to a file called **lenet.ipynb**.
-
-Copy and paste the contents from [inception_v1.ipynb](https://github.com/dnielsen/vegnonveg/blob/master/python/inception_v1/inception_v1.ipynb) to a file called **inception.ipynb**.
 
 ### 9) Create a utils.py file
 
@@ -156,9 +154,7 @@ def get_mnist(sc, mnist_path):
 
 -dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist
 
--spark-2.1.1-bin-hadoop2.7
-
--inception.ipynb    
+-spark-2.1.1-bin-hadoop2.7  
 
 -lenet.ipynb
 
@@ -176,4 +172,27 @@ In your browser type in:
 
 **ec2-34-229-7-73.compute-1.amazonaws.com:8888/?token=YOURTOKEN**
 
-Try running lenet.ipynb or inception.ipynb.
+Try running lenet.ipynb.
+
+## Run inception_v1
+
+### 1) Clone the vegnonveg repository into your bigdl folder.
+
+```
+git clone https://github.com/dnielsen/vegnonveg.git
+```
+
+### 2) Install the package **opencv**.
+
+```
+conda install opencv
+```
+
+### 3) Navigate to the /vegnonveg/python/inception_v1 folder.  Then, download caffe's pre-trained model with this command:
+
+```
+wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
+```
+
+
+### 4) Launch **inception_v1.ipynb**.
