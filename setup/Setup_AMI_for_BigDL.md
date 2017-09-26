@@ -102,7 +102,7 @@ tar -xzf spark-2.1.1-bin-hadoop2.7.tgz
 
 ### 7) Download the starter script
 
-#### Create a file called **start_notebook.sh**. Copy and paste the contents from the code below into start_notebook.sh:
+Create a file called **start_notebook.sh**. Copy and paste the contents from the code below into start_notebook.sh:
 
 ```
 SPARK_HOME=/home/ubuntu/bigdl/spark-2.1.1-bin-hadoop2.7
@@ -208,4 +208,6 @@ wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
 
 ### 4) Run **inception_v1.ipynb**.
 
-Go run Jupyter Notebooks by going back to the **bigdl** directory and running **./start_notebook.sh**. inception_v1.ipynb is located in ./vegnonveg/python/inception_v1.
+Go run Jupyter Notebooks by going back to the **bigdl** directory and running **./start_notebook.sh**.
+
+note: inception_v1.ipynb is located in ./vegnonveg/python/inception_v1.
