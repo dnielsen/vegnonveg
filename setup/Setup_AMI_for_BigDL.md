@@ -128,7 +128,7 @@ Copy and paste the contents from [cnn.ipynb](cnn.ipynb) to a file called **lenet
 
 ### 9) Create a utils.py file
 
-#### Copy and paste the following code into a file called **utils.py**.
+Copy and paste the following code into a file called **utils.py**.
 
 ```python
 import numpy as np
