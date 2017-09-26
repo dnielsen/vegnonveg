@@ -206,4 +206,6 @@ wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
 ```
 
 
-### 4) You are ready to run **inception_v1.ipynb**. Go run Jupyter Notebooks by going back to the **bigdl** directory and running **./start_notebook.sh**. inception_v1.ipynb is located in ./vegnonveg/python/inception_v1.
+### 4) Run **inception_v1.ipynb**.
+
+Go run Jupyter Notebooks by going back to the **bigdl** directory and running **./start_notebook.sh**. inception_v1.ipynb is located in ./vegnonveg/python/inception_v1.
