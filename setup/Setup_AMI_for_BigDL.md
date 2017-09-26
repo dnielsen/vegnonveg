@@ -183,9 +183,9 @@ If you are prompted to enter a password:
 
 **Password: deepblue**
 
-Try running lenet.ipynb.
+You can now run lenet.ipynb.
 
-## Run inception_v1
+## Running inception_v1
 
 ### 1) Clone the vegnonveg repository into your bigdl folder.
 
