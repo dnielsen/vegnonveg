@@ -49,13 +49,13 @@ conda install -c reeder java-jdk
 
 Use the command:
 ```
-conda create -n yourenvname python=2.7 anaconda
+conda create -n py27 python=2.7 anaconda
 ```
-Switch the the Python 2.7 environment.
+Switch to the Python 2.7 environment.
 
 Run:
 ```
-source activate yourenvname
+source activate py27
 ```
 
 ### 4) Install Java on your new environment
@@ -97,7 +97,7 @@ wget https://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.7.tgz
 
 Unzip:
 ```
-tar -xzf spark-2.1.1-bin-hadoop2.7.tgz**
+tar -xzf spark-2.1.1-bin-hadoop2.7.tgz
 ```
 
 ### 7) Download the starter script
@@ -173,10 +173,15 @@ def get_mnist(sc, mnist_path):
 ./start_notebook.sh
 ```
 
-This should launch the Jupyter Notebooks server on your AWS instance. Make sure your AWS instance is up and running, and enter in the token provided on your command prompt into YOURTOKEN.
-In your browser type in:
+This should launch the Jupyter Notebooks server. Make sure your AWS instance is up and running.
 
-**ec2-34-229-7-73.compute-1.amazonaws.com:8888/?token=YOURTOKEN**
+In your browser type in, for example:
+
+**ec2-34-229-7-73.compute-1.amazonaws.com:8888**
+
+If you are prompted to enter a password:
+
+**Password: deepblue**
 
 Try running lenet.ipynb.
 
@@ -201,4 +206,4 @@ wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
 ```
 
 
-### 4) Launch **inception_v1.ipynb**.
+### 4) You are ready to run **inception_v1.ipynb**. Go run Jupyter Notebooks by going back to the **bigdl** directory and running **./start_notebook.sh**. inception_v1.ipynb is located in ./vegnonveg/python/inception_v1.
