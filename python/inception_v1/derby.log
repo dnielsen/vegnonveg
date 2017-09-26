@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Thu Sep 14 11:21:32 PDT 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015e-819f-e0aa-000009d33c50 
-on database directory /home/rocky/spark_prog/inception_v1/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@315553df 
-Loaded from file:/home/rocky/spark_prog/spark_setup/spark-2.1.0-bin-hadoop2.7/jars/derby-10.12.1.1.jar
+Mon Sep 25 11:16:42 PDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015e-ba41-6564-00000bccc340 
+on database directory /Users/ashleyzhao/Desktop/BIGDL/vegnonveg/python/inception_v1/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@599ec1ad 
+Loaded from file:/Users/ashleyzhao/Desktop/BIGDL/spark-2.1.1-bin-hadoop2.7/jars/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11
-user.dir=/home/rocky/spark_prog/inception_v1
-os.name=Linux
-os.arch=amd64
-os.version=4.4.0-93-generic
+java.runtime.version=1.8.0_40-b25
+user.dir=/Users/ashleyzhao/Desktop/BIGDL/vegnonveg/python/inception_v1
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.12.6
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''

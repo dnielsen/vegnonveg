@@ -4,12 +4,18 @@
 
 ## Launch an AWS EC2 Instance
 
-1) Create/sign on to your AWS account
-2) TODO
+1) Create an AMI.  Choose **Ubuntu Server 14.04 LTS (HVM)**
 
-## SSH into AWS EC2 Instance
+## SSH into your AMI
 
-TODO
+```
+ssh -i "<yourkey>.pem" ubuntu@<your instance id>
+```
+
+Example:
+
+ssh -i "mykey.pem" ubuntu@ec2-55-174-6-213.compute-1.amazonaws.com
+
 
 ## Install Dependencies
 
