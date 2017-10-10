@@ -5,6 +5,11 @@
 ## Launch an AWS EC2 Instance
 
 1) Create an AMI.  Choose **Ubuntu Server 14.04 LTS (HVM)**
+2) Placeholder for other instance details, such as: 
+  Type: t2.large; 
+  Auto-assign Public IP: Enable; 
+  Size (GiB): 32; 
+  Security Group: HTTP,TCP,80; Custom TCP Rule: TCP,8888; Custom TCP Rule: TCP,8080; SSH: TCP,22;
 
 ## SSH into your AMI
 
