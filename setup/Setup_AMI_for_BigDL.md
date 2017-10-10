@@ -199,7 +199,7 @@ If you are prompted to enter a password:
 
 **Password: deepblue**
 
-You can now run lenet.ipynb.
+You can now run **lenet.ipynb**.
 
 ## Running inception_v1
 
@@ -224,6 +224,6 @@ wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
 
 ### 4) Run **inception_v1.ipynb**.
 
-Go run Jupyter Notebooks by going back to the **bigdl** directory and running **./start_notebook.sh**.
+Run the notebook by going back to your home directory and running ". startup.sh"
 
-note: inception_v1.ipynb is located in ./vegnonveg/python/inception_v1.
+note: inception_v1.ipynb is located in **/home/ubuntu/bigdl/vegnonveg/python/inception_v1** directory
