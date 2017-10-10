@@ -5,7 +5,7 @@
 ## Launch an AWS EC2 Instance
 
 1) Create an AMI.  Choose **Ubuntu Server 14.04 LTS (HVM)**
-2) Placeholder for other instance details, such as: 
+2) Example instance details:
   Type: t2.large; 
   Auto-assign Public IP: Enable; 
   Size (GiB): 32; 
