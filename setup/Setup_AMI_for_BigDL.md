@@ -175,7 +175,7 @@ def get_mnist(sc, mnist_path):
 ### 11) Create **startup.sh** script to start Jupyter.
 (The instance forgets environment variables upon each ssh.  Running this script will set environment variables and launch your Jupyter environment by calling start_notebook.sh.)
 
-## Copy and paste the following code into a file called **startup.sh** in your home directory. (cd ~)
+#### Copy and paste the following code into a file called **startup.sh** in your home directory. (cd ~)
 ```
 #!/bin/sh
 
@@ -184,7 +184,7 @@ source activate py27
 cd bigdl
 ./start_notebook.sh
 ```
-## Run the script to launch Jupyter.
+#### Run the script to launch Jupyter.
 
 ```
 . startup.sh
