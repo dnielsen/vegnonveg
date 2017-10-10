@@ -17,6 +17,10 @@ Example:
 ssh -i "mykey.pem" ubuntu@ec2-55-174-6-213.compute-1.amazonaws.com
 
 
+## Update existing files
+---
+sudo apt-get update
+---
 ## Install Dependencies
 
 ### 1) Install Anaconda
