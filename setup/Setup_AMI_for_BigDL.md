@@ -132,7 +132,7 @@ Copy and paste the contents from [cnn.ipynb](cnn.ipynb) to a file called **lenet
 
 ### 9) Create a utils.py file
 
-Copy and paste the following code into a file called **utils.py**.
+Copy and paste the following code into a file called **utils.py**. This contains the function used to extract and process MNIST data to a format that bigdl understands.
 
 ```python
 import numpy as np
