@@ -126,7 +126,7 @@ ${SPARK_HOME}/bin/pyspark \
   --conf spark.executor.extraClassPath=${BigDL_HOME}/lib/bigdl-SPARK_2.1-${VERSION}-jar-with-dependencies.jar
 ```
 
-### 8) Create the lenet jupyter notebook to test out.
+### 8) Create lenet.ipynb to run bigdl's lenet model on MNIST data.
 
 Copy and paste the contents from [cnn.ipynb](cnn.ipynb) to a file called **lenet.ipynb**.
 
