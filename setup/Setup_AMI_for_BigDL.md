@@ -189,7 +189,7 @@ cd bigdl
 ```
 . startup.sh
 ```
-This should launch the Jupyter Notebooks server. Make sure your AWS instance is up and running.
+This should launch the Jupyter Notebooks server.
 
 In your browser type in, for example:
 
