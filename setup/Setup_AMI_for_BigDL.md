@@ -39,9 +39,15 @@ bash Anaconda3-4.2.0-Linux-x86_64.sh
 Follow the command prompt to finish the installation. When prompted:
 
 Do you wish the installer to prepend the Anaconda3 install location
-to PATH in your /home/sammy/.bashrc ? [yes|no]
+to PATH in your /home/ubuntu/.bashrc ? [yes|no]
 
-Choose "yes" so you can use the conda command.
+Choose "yes".
+
+Export PATH variable:
+
+```
+export PATH="/home/ubuntu/anaconda3/bin:$PATH"
+```
 
 Verify installation of anaconda by typing the command:
 ```
@@ -91,7 +97,7 @@ Unzip the zip file by running these commands:
 ```
 sudo apt-get install unzip
 mkdir dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist
-unzip dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist.zip dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist
+unzip dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist.zip -d dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist
 ```
 
 Your **dist-spark-2.1.1-scala-2.11.8-linux64-0.2.0-dist** folder should have lib, conf and bin folders.
