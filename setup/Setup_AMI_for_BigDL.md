@@ -21,6 +21,11 @@ Example:
 
 ssh -i "mykey.pem" ubuntu@ec2-55-174-6-213.compute-1.amazonaws.com
 
+## Login
+```
+login as: ubuntu
+```
+
 ## Update existing files
 ```
 sudo apt-get update
@@ -28,20 +33,24 @@ sudo apt-get update
 ## Install Dependencies
 
 ### 1) Install Anaconda
-In your home directory, **/home/ubuntu**, install anaconda with this command:
+In your home directory, **/home/ubuntu**, download Anaconda with this command:
 ```
 curl -O https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
 ```
-Run the script:
+Run the script to begin installing Anaconda:
 ```
 bash Anaconda3-4.2.0-Linux-x86_64.sh
 ```
-Follow the command prompt to finish the installation. When prompted:
+Follow the command prompt. 
+
+Press ENTER to continue and finish the installation. 
 
 Do you wish the installer to prepend the Anaconda3 install location
 to PATH in your /home/ubuntu/.bashrc ? [yes|no]
 
-Choose "yes".
+Type "yes".
+
+Close and Reopen your terminal Window
 
 Export PATH variable:
 
@@ -72,7 +81,7 @@ Run:
 source activate py27
 ```
 
-### 4) Install Java on your new environment
+### 4) Install Java on your new environment (do we need this again?)
 
 ```
 conda install -c reeder java-jdk
@@ -116,7 +125,7 @@ tar -xzf spark-2.1.1-bin-hadoop2.7.tgz
 
 ### 7) Download the starter script
 
-Create a file called **start_notebook.sh**. Copy and paste the contents from the code below into start_notebook.sh:
+  Create a file called **start_notebook.sh**. Copy and paste the contents from the code below into start_notebook.sh:
 
 ```
 SPARK_HOME=/home/ubuntu/bigdl/spark-2.1.1-bin-hadoop2.7
