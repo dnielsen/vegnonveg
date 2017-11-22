@@ -8,7 +8,7 @@ export SPARK_HOME=$INSTALL_HOME/spark-2.2.0-bin-hadoop2.7
 export BigDL_HOME=$INSTALL_HOME/dist-spark-2.2.0-scala-2.11.8-linux64-0.3.0-dist
 
 export PYSPARK_DRIVER_PYTHON=jupyter
-export PYSPARK_DRIVER_PYTHON_OPTS="notebook --allow-root --notebook-dir=./ --ip=* --no-browser --certfile=mycert.pem --keyfile=mykey.key --NotebookApp.token='bigdl'"
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook --allow-root --notebook-dir=./notebooks --ip=* --no-browser --certfile=mycert.pem --keyfile=mykey.key --NotebookApp.token='bigdl'"
 VERSION=0.3.0
 source activate py27
 # tensorboard --logdir=/tmp/bigdl_summaries/lenet5-  2>&1 >tensorboard.log &
